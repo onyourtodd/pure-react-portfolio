@@ -1,0 +1,30 @@
+@import './normalize.less';
+@import './colours.less';
+
+.mainGrid {
+  grid-area: mainGrid;
+}
+
+@media all and (high-contrast:none) {
+  .mainGrid {
+    grid-row: 2;
+    grid-row-span: 1;
+    grid-column: 3;
+    grid-column-span: 3;
+  }
+}
+
+.mainWrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  top: -102px;
+}
+
+.splittext {
+  color: @yellow;
+}
+
+.linkarrow {
+  color: @yellow;
+}
