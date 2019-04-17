@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './sunny.module.less'
+import styles from './sunny.module.css'
 
 class Sunny extends Component {
     render() {

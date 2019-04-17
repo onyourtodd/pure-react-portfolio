@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './Logo.module.less'
+import styles from './Logo.module.css'
 
 class Logo extends Component {
     render() {

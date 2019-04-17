@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from "./fishes.module.less"
+import styles from "./fishes.module.css"
 
 class Fishes extends Component {
     render() {

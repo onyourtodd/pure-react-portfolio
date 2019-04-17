@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import styles from "./cloud.module.less"
+import styles from "./cloud.module.css"
 
 class Cloud extends Component {
     render() {
         return (
             <div className={styles.clouds}>
                 <svg version="1.1" x="0px" y="0px" width="762px"
-                     height="331px" viewBox="0 0 762 331" enable-background="new 0 0 762 331" className={`${styles.cloud} ${styles.slowest}`}>
+                     height="331px" viewBox="0 0 762 331" enableBackground="new 0 0 762 331" className={`${styles.cloud} ${styles.slowest}`}>
                     <path fill="pink" d="M715.394,228h-16.595c0.79-5.219,1.201-10.562,1.201-16c0-58.542-47.458-106-106-106
       c-8.198,0-16.178,0.932-23.841,2.693C548.279,45.434,488.199,0,417.5,0c-84.827,0-154.374,65.401-160.98,148.529
       C245.15,143.684,232.639,141,219.5,141c-49.667,0-90.381,38.315-94.204,87H46.607C20.866,228,0,251.058,0,279.5

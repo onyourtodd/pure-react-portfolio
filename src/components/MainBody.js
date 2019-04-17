@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Cloud from './Cloud'
-import styles from '../mainBody.module.less'
+import styles from './mainBody.module.css';
 import Clock from 'react-live-clock';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
