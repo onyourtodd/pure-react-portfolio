@@ -1,24 +1,19 @@
-import React, { Component } from 'react';
-import Sunny from './Sunny';
-import Logo from './Logo';
-import MainBody from './MainBody';
-import Island from './Island';
-import Waves from './Waves';
-import './globals.scss'
-
+import React, { Component } from "react";
+import Home from "./Home";
+import About from "./About";
+import {BrowserRouter as Router, Route, Link, Switch, HashRouter} from "react-router-dom";
 
 class App extends Component {
-  render() {
-    return (
-        <div className="containerGrid">
-            <Sunny />
-            <Logo />
-            <MainBody />
-            <Island />
-            <Waves />
-        </div>
-    );
-  }
+    render() {
+        return (
+            <>
+                <Switch>
+                    <Route path="/about" component={About}/>
+                    <Route exact path="/" component={Home}/>
+                </Switch>
+            </>
+        );
+    }
 }
 
-export default App;
+export default App
