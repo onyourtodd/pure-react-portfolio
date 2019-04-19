@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from "./waves.module.css"
+import styles from "./waves.module.scss"
 import Fishes from './Fishes'
 
 class Waves extends Component {

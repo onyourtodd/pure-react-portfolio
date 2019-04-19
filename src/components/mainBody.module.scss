@@ -1,5 +1,5 @@
-@import './normalize.less';
-@import './colours.less';
+@import './normalize.scss';
+@import './colors.scss';
 
 .mainGrid {
   grid-area: mainGrid;
@@ -22,9 +22,9 @@
 }
 
 .splittext {
-  color: @yellow;
+  color: $yellow;
 }
 
 .linkarrow {
-  color: @yellow;
+  color: $yellow;
 }

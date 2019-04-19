@@ -4,7 +4,7 @@ import Logo from './Logo';
 import MainBody from './MainBody';
 import Island from './Island';
 import Waves from './Waves';
-import './globals.css'
+import './globals.scss'
 
 
 class App extends Component {

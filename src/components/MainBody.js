@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Cloud from './Cloud'
-import styles from './mainBody.module.css';
+import styles from './mainBody.module.scss';
+import SplitText from 'react-pose-text'
 import Clock from 'react-live-clock';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -15,6 +16,15 @@ const MainLinks = [
   },
 ];
 
+const textEffect = {
+  exit: { opacity: 0, y: 20 },
+  enter: {
+    opacity: 1,
+    y: 0,
+    delay: ({ charIndex }) => charIndex * 130,
+  },
+};
+
 class MainBody extends Component {
   render() {
     return (
@@ -25,8 +35,9 @@ class MainBody extends Component {
             <h1>Hola</h1>
             <h2>
               I'm Todd, a{' '}
+              <SplitText initialPose="exit" pose="enter" charPoses={textEffect} className={styles.splittext}>
                 front-end developer
-              {' '}
+              </SplitText>{' '}
               from London, living in 🌞 Barcelona. It's <Clock format={'h.mm a'} ticking={true} timezone={'Europe/Madrid'} /> here!
             </h2>
             <p>

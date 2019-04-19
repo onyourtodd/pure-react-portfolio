@@ -1,6 +1,12 @@
-@import './colors.less';
+@import './colors.scss';
 
-//@import (css) url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+$open-sans: 'Open Sans', sans-serif;
+
+body {
+  font-family: $open-sans;
+}
 
 hr {
   display: block;
@@ -25,7 +31,7 @@ h1 {
   font-size:12vw;
   line-height:1.1;
   margin:0 10% 0 6%;
-  color: @black;
+  color: $black;
   font-weight:bold;
 }
 
@@ -49,11 +55,11 @@ li {
 }
 
 span {
-  color: @yellow;
+  color: $yellow;
 }
 
 i {
-  color: @yellow;
+  color: $yellow;
 }
 
 a {

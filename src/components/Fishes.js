@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from "./fishes.module.css"
+import styles from "./fishes.module.scss"
 
 class Fishes extends Component {
     render() {

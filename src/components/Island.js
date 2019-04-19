@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from "./island.module.css"
+import styles from "./island.module.scss"
 
 class Island extends Component {
     render() {

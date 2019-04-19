@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from "./cloud.module.css"
+import styles from "./cloud.module.scss"
 
 class Cloud extends Component {
     render() {
