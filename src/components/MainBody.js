@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import Cloud from './Cloud'
-import About from './About'
-import Home from './Home'
 import styles from './mainBody.module.scss';
 import SplitText from 'react-pose-text'
 import Clock from 'react-live-clock';
-import { Route, Link, HashRouter } from "react-router-dom";
-import Navigation from "./Navigation";
+import { Link } from "react-router-dom";
 
 const MainLinks = [
   {
@@ -49,7 +46,18 @@ class MainBody extends Component {
                 Including but not limited to; <i>HTML5</i>, <i>CSS3</i>, <i>Javascript</i>
                 , <i>React</i>, <i>Redux</i>.
               </p>
-              <Navigation />
+              <ul>
+                <li>
+                  <a href={"http://www.email-mentor.com"} target={"_blank"}>Latest work<span className={styles.linkarrow}>&nbsp;→</span></a>
+                </li>
+              </ul>
+              <ul>
+                {MainLinks.map((link, index) => (
+                    <li key={'main-body-link' + index}>
+                      <Link to={link.link}>{link.name}<span className={styles.linkarrow}>&nbsp;→</span></Link>
+                    </li>
+                ))}
+              </ul>
             </section>
           </div>
 

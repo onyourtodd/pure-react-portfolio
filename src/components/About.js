@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from "./about.module.scss"
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class About extends Component {
     render() {

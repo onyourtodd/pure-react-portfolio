@@ -5,8 +5,6 @@ import MainBody from './MainBody';
 import Island from './Island';
 import Waves from './Waves';
 import './globals.scss';
-import About from "./About";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class Home extends Component {
     render() {
