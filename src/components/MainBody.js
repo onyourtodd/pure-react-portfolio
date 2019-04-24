@@ -25,7 +25,19 @@ const textEffect = {
 };
 
 class MainBody extends Component {
+  state = {
+    isLit: true
+  };
+
+  flipLight = () => {
+    this.setState({
+      isLit: !this.state.isLit
+    });
+  };
+
   render() {
+    const brightness = this.state.isLit ? "lit" : "dark";
+
     return (
 
           <div className={styles.mainGrid}>
@@ -51,6 +63,11 @@ class MainBody extends Component {
                   <a href={"http://www.email-mentor.com"} target={"_blank"}>Latest work<span className={styles.linkarrow}>&nbsp;→</span></a>
                 </li>
               </ul>
+              <div className={`room ${brightness}`}>
+                the room is {brightness}
+                <br />
+                <button onClick={this.flipLight}>flip</button>
+              </div>
               <ul>
                 {MainLinks.map((link, index) => (
                     <li key={'main-body-link' + index}>
