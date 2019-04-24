@@ -1,10 +1,20 @@
 @import './colors.scss';
 
+.mainGrid {
+  grid-area: mainGrid;
+}
 
+
+
+.mainWrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  top:60px;
+}
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 
@@ -81,8 +91,10 @@
   height:80vh;
   background-image: url("../images/tentacle.svg");
   shape-rendering: optimizeSpeed;
-  position:absolute;
-  bottom:0;
+  position: fixed;
+  bottom: -510px;
+  z-index: -10;
+  left: -670px;
 }
 
 .containerBackground

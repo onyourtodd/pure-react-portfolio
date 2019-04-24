@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 class About extends Component {
     render() {
         return (
+            <section className={styles.mainGrid}>
+                <section className={styles.mainWrapper}>
                 <div className={styles.container}>
                     <h1>CV</h1>
                     <p>I have 10 years of experience in the digital world across a variety of different roles and disciplines. Starting off as a designer, I quickly took a shining to coding but always kept a strong hold on UX. Currently I am focused on building web apps using React.</p>
@@ -66,6 +68,7 @@ class About extends Component {
                     <h3>University of Portsmouth</h3>
                     <span>Bsc (Hons), Entertainment Technology</span>
                     <time>2005 - 2008</time>
+                    <div className={styles.tentacle}></div>
                 <br />
                 <br /><br /><br /><br /><br />
 
@@ -73,6 +76,8 @@ class About extends Component {
                         <Link to="/">&#x02297;</Link>
                     </div>
             </div>
+            </section>
+            </section>
         );
     }
 }
