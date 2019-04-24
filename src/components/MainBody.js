@@ -62,13 +62,6 @@ class MainBody extends Component {
                 <li>
                   <a href={"http://www.email-mentor.com"} target={"_blank"}>Latest work<span className={styles.linkarrow}>&nbsp;→</span></a>
                 </li>
-              </ul>
-              <div className={`room ${brightness}`}>
-                the room is {brightness}
-                <br />
-                <button onClick={this.flipLight}>flip</button>
-              </div>
-              <ul>
                 {MainLinks.map((link, index) => (
                     <li key={'main-body-link' + index}>
                       <Link to={link.link}>{link.name}<span className={styles.linkarrow}>&nbsp;→</span></Link>
