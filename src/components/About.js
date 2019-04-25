@@ -9,7 +9,7 @@ class About extends Component {
                 <section className={styles.mainWrapper}>
                 <div className={styles.container}>
                     <h1>CV</h1>
-                    <p>I have 10 years of experience in the digital world across a variety of different roles and disciplines. Starting off as a designer, I quickly took a shining to coding but always kept a strong hold on UX. Currently I am focused on building web apps using React.</p>
+                    <p>I am a Senior Front End Developer with 10 years experience of working in agencies, corporations, start-ups and freelancing. I specialize in coding for web, particularly web apps, but also have extensive experience with UX design and CRM. I thrive in agile environments and put accessibility at the forefront of web. React is my tool of choice with a soft spot for Gatsby.</p>
                     <h2>Employment</h2>
                     <h3>King Games</h3>
                     <span>Senior Developer</span>
@@ -65,12 +65,16 @@ class About extends Component {
                     <h3>Free Code Camp</h3>
                     <span>Full Stack Wev Development Certification, Computer Software Engineering</span>
                     <time>2016 - 2017</time>
+                    <h3>SCRUM</h3>
+                    <span>Certified ScrumMaster® (CSM)</span>
+                    <time>2017</time>
                     <h3>University of Portsmouth</h3>
                     <span>Bsc (Hons), Entertainment Technology</span>
                     <time>2005 - 2008</time>
+
                     <div className={styles.tentacle}></div>
-                <br />
-                <br /><br /><br /><br /><br />
+
+                    <br /><br /><br /><br /><br /><br />
 
                     <div className={styles.exit}>
                         <Link to="/">&#x02297;</Link>

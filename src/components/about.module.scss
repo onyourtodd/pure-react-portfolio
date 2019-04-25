@@ -39,7 +39,7 @@
   }
 
   span {
-    font-size: 0.75em;
+    font-size: 1em;
     display: block;
     color: #444;
     font-weight: 400;
@@ -48,13 +48,13 @@
   }
 
   time {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: #444;
     margin-left:7%;
   }
 
   p {
-    font-size:1.1rem;
+    font-size:1rem;
     line-height: 1.7;
     margin-top:1rem;
   }
@@ -64,11 +64,12 @@
     margin-left:7%;
   }
 
-  strong {
-    font-weight:normal;
+  .linkarrow {
     color: $yellow;
   }
 }
+
+
 
 .exit {
   position:fixed;
@@ -95,6 +96,10 @@
   bottom: -510px;
   z-index: -10;
   left: -670px;
+  animation:
+          
+          movement 40s ease-in-out infinite both,
+          shade 60s linear infinite both;
 }
 
 .containerBackground
