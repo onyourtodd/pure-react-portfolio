@@ -21,6 +21,7 @@ const textEffect = {
   enter: {
     opacity: 1,
     y: 0,
+    delay: ({ charIndex }) => charIndex * 130,
   },
 };
 
@@ -36,8 +37,6 @@ class MainBody extends Component {
   };
 
   render() {
-    const brightness = this.state.isLit ? "lit" : "dark";
-
     return (
 
           <div className={styles.mainGrid}>
