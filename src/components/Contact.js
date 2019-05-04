@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import styles from "./contact.module.scss"
 import { Link } from "react-router-dom";
 
-class Contact extends Component {
-    render() {
-        return (
-            <div className={styles.modal}>
+const Contact = () => {
+    return (
+        <div className="page">
+        <div className={styles.modal}>
                 <h2 className={styles.textPopUp}>Contact me</h2>
                 <p>Let's connect!</p>
                 <p>If you would like to get in contact regarding web dev then please use the form below.</p>
@@ -30,8 +30,8 @@ class Contact extends Component {
                     <Link to="/">&#x02297;</Link>
                 </div>
             </div>
-        );
-    }
-}
+        </div>
+        )
+    };
 
 export default Contact

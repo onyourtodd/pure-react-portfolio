@@ -6,9 +6,9 @@ import Island from './Island';
 import Waves from './Waves';
 import './globals.scss';
 
-class Home extends Component {
-    render() {
-        return (
+const Home = () => {
+    return (
+        <div className="page">
             <div className="containerGrid">
                 <Sunny />
                 <Logo />
@@ -16,8 +16,8 @@ class Home extends Component {
                 <Island />
                 <Waves />
             </div>
-        );
-    }
-}
+        </div>
+        )
+    };
 
-export default Home;
+export default Home
