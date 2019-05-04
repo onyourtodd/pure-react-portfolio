@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Sunny from './Sunny';
 import Logo from './Logo';
 import MainBody from './MainBody';

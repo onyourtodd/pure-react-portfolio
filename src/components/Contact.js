@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from "./contact.module.scss"
 import { Link } from "react-router-dom";
 
