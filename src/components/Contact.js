@@ -7,11 +7,9 @@ class Contact extends Component {
         return (
             <div className={styles.modal}>
                 <h2 className={styles.textPopUp}>Contact me</h2>
-                <p>
-                    Let's connect!<br />
-                    If you would like to get in contact regarding web dev then please use the form below.<br />
-                    Looking forward to hearing from you.
-                </p>
+                <p>Let's connect!</p>
+                <p>If you would like to get in contact regarding web dev then please use the form below.</p>
+                <p>Looking forward to hearing from you.</p>
 
                 <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="contact" value="contact" />
