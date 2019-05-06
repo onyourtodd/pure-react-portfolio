@@ -1,15 +1,17 @@
 import React from 'react';
 import styles from "./contact.module.scss"
 import { Link } from "react-router-dom";
+import monkey from "../images/monkey.gif";
 
 const Contact = () => {
     return (
         <div className="page">
         <div className={styles.modal}>
                 <h2 className={styles.textPopUp}>Contact me</h2>
-                <p>Let's connect!</p>
-                <p>If you would like to get in contact regarding web dev then please use the form below.</p>
-                <p>Looking forward to hearing from you.</p>
+                <p>Buenos dias!</p>
+                <p>I'm always available to discuss potential projects, mentoring, or even if you just want to geek out about tech and games.</p>
+                <p>This form will notify me and i'll get back to you right away.</p>
+                <p>In the meantime, 'Look behind you, a Three-Headed Monkey!'</p>
 
                 <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="contact" value="contact" />
@@ -25,6 +27,7 @@ const Contact = () => {
                     </p>
                     <input type="hidden" name="form-name" value="contact" />
                 </form>
+                <img src={monkey} className={styles.monkey}/>
 
                 <div className={styles.exit}>
                     <Link to="/">&#x02297;</Link>
