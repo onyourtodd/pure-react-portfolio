@@ -12,11 +12,11 @@ class App extends Component {
             <>
                 <Route render={({location}) => (
                     <TransitionGroup>
-                        <CSSTransition key={location.key} classNames="slide" >
+                        <CSSTransition key={location.key} timeout={450} classNames="fade" >
                             <Switch location={location}>
+                                <Route exact path="/" component={Home}/>
                                 <Route path="/about" component={About}/>
                                 <Route path="/contact" component={Contact}/>
-                                <Route exact path="/" component={Home}/>
                             </Switch>
                         </CSSTransition>
                     </TransitionGroup>
