@@ -27,7 +27,7 @@ const Contact = () => {
                     </p>
                     <input type="hidden" name="form-name" value="contact" />
                 </form>
-                <img src={monkey} className={styles.monkey}/>
+                <img src={monkey} className={styles.monkey} alt={"Monkey island monkey swinging from top of the page"}/>
 
                 <div className={styles.exit}>
                     <Link to="/">&#x02297;</Link>
