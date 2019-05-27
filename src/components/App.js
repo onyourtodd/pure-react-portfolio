@@ -1,13 +1,14 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import {Route, Switch } from "react-router-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {CSSTransition, TransitionGroup} from "react-transition-group";
 import './app.css';
+import List from "./List";
 
 class App extends Component {
-    render() {
+    render(props = {location: {key: 'en'}}) {
         return (
             <>
                 <Route render={({location}) => (
