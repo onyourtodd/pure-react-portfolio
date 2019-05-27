@@ -26,19 +26,8 @@ const textEffect = {
 };
 
 class MainBody extends Component {
-  state = {
-    isLit: true
-  };
-
-  flipLight = () => {
-    this.setState({
-      isLit: !this.state.isLit
-    });
-  };
-
   render() {
     return (
-
           <div className={styles.mainGrid}>
             <Cloud />
             <section className={styles.mainWrapper}>

@@ -8,15 +8,15 @@ import './globals.scss';
 
 const Home = () => {
     return (
-        <div className="page">
-            <div className="containerGrid">
-                <Sunny />
-                <Logo />
-                <MainBody />
-                <Island />
-                <Waves />
+            <div className="page">
+                <div className="containerGrid">
+                    <Sunny />
+                    <Logo />
+                    <MainBody />
+                    <Island />
+                    <Waves />
+                </div>
             </div>
-        </div>
         )
     };
 

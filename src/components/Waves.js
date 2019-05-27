@@ -6,17 +6,19 @@ class Waves extends Component {
     render() {
         return (
             <div className={styles.wavesGrid}>
-                <div id={styles.wave}>
-                    <Fishes />
-                    <div className={styles.bubbles}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                <div id={styles.waveContainer}>
+                    <div id={styles.wave}>
+                        <Fishes />
+                        <div className={styles.bubbles}>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
             </div>

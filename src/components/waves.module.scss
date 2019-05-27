@@ -12,16 +12,21 @@
   }
 }
 
+#waveContainer {
+  background-color:#5488b6;
+  top: 129px;
+  position:relative;
+}
+
 #wave {
-  background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
-  radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
-  radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
-  background-size:110px 200px;
+  background-image: url("../images/wave.png");
+  background-size:110px auto;
   background-repeat:repeat-x;
-  height:50%;
-  position: absolute;
+  height:40vh;
+  position: relative;
   width: 100%;
-  background-color:#48B;
+  z-index:2;
+  bottom: 71px;
 }
 
 .bubbles {

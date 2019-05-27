@@ -11,9 +11,7 @@ ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
             <Route path="/">
-                <>
-                    <App/>
-                </>
+                <App/>
             </Route>
         </BrowserRouter>
     </Provider>,
