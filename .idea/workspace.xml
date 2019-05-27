@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fad1f0d0-8d99-4cf4-9139-28bcb0fbb5c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/DarkModeCommands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DarkModeStatus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DarkModeToggle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Toggle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sagas/api-saga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Waves.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Waves.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/waves.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/waves.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/action-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -93,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/globals.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="225" column="22" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+            <state relative-caret-position="567">
+              <caret line="226" column="3" lean-forward="true" selection-start-line="226" selection-start-column="3" selection-end-line="226" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -308,7 +289,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558985531488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558987571472" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -403,12 +384,12 @@
       <workItem from="1557261685797" duration="967000" />
       <workItem from="1557263521542" duration="1097000" />
       <workItem from="1558641965339" duration="6772000" />
-      <workItem from="1558954613713" duration="13359000" />
+      <workItem from="1558954613713" duration="13552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85874000" />
+    <option name="totallyTimeSpent" value="86067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1200" height="1177" extended-state="0" />
@@ -813,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/globals.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="225" column="22" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+        <state relative-caret-position="567">
+          <caret line="226" column="3" lean-forward="true" selection-start-line="226" selection-start-column="3" selection-end-line="226" selection-end-column="3" />
         </state>
       </provider>
     </entry>
