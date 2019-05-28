@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fad1f0d0-8d99-4cf4-9139-28bcb0fbb5c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DarkModeToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DarkModeToggle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/globals.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -76,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/globals.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="299" column="13" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
+            <state relative-caret-position="632">
+              <caret line="296" column="10" selection-start-line="296" selection-start-column="10" selection-end-line="296" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -385,12 +383,12 @@
       <workItem from="1557263521542" duration="1097000" />
       <workItem from="1558641965339" duration="6772000" />
       <workItem from="1558954613713" duration="14474000" />
-      <workItem from="1559040189674" duration="225000" />
+      <workItem from="1559040189674" duration="677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87214000" />
+    <option name="totallyTimeSpent" value="87666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1320" height="1177" extended-state="0" />
@@ -738,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/globals.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="299" column="13" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
+        <state relative-caret-position="632">
+          <caret line="296" column="10" selection-start-line="296" selection-start-column="10" selection-end-line="296" selection-end-column="10" />
         </state>
       </provider>
     </entry>
