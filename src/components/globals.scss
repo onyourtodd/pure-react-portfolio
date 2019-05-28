@@ -297,6 +297,7 @@ body.dark-mode .content button {
   border-radius: 15px;
   padding: 2px;
   opacity:0.8;
+  border: 2px solid lightgray;
 
   & > button {
     font-size: 1.2em;
@@ -305,7 +306,9 @@ body.dark-mode .content button {
     color: #FDB813;
     cursor: pointer;
     transition: color 0.3s ease;
-    width:30px;
+    width:25px;
+    left: 4px;
+    position: relative;
     &:last-child {
       color: #666;
     }
