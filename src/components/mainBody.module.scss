@@ -28,3 +28,10 @@
 .linkarrow {
   color: $yellow;
 }
+
+@media only screen and (max-width: 1380px) {
+  .mainWrapper {
+    margin-top:5%;
+  }
+}
+
