@@ -217,7 +217,6 @@ body.dark-mode {
 
   .dark-mode-toggle > button {
     color: #999;
-    width:20px;
     &:last-child {
       color: lightblue;
       width:30px;
@@ -293,7 +292,7 @@ body.dark-mode .content button {
   left: 25px;
   top: 110px;
   z-index: 1;
-  background-color: #1b2938;
+  background-color: lightcyan;
   width: 65px;
   border-radius: 15px;
   padding: 2px;
@@ -306,6 +305,7 @@ body.dark-mode .content button {
     color: #FDB813;
     cursor: pointer;
     transition: color 0.3s ease;
+    width:30px;
     &:last-child {
       color: #666;
     }
