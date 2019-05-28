@@ -290,13 +290,14 @@ body.dark-mode .content button {
   display: flex;
   margin: 0 auto;
   position: absolute;
-  left: 4px;
+  left: 25px;
   top: 110px;
   z-index: 1;
   background-color: #1b2938;
-  width: 112px;
+  width: 65px;
   border-radius: 15px;
   padding: 2px;
+  opacity:0.8;
 
   & > button {
     font-size: 1.2em;
