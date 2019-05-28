@@ -309,7 +309,7 @@ body.dark-mode .content button {
     transition: color 0.3s ease;
     display: inline;
     margin:0;
-    padding:0;
+    padding:0 0 0 12px;
 
     &:last-child {
       color: #666;
