@@ -289,7 +289,7 @@ body.dark-mode .content button {
 
 .dark-mode-toggle {
   position: absolute;
-  left: 25px;
+  left: 21px;
   top: 110px;
   z-index: 1;
   background-color: lightcyan;
@@ -306,10 +306,6 @@ body.dark-mode .content button {
     color: #FDB813;
     cursor: pointer;
     transition: color 0.3s ease;
-    width:25px;
-    left: 4px;
-    position: relative;
-    display:inline;
     &:last-child {
       color: #666;
     }
