@@ -48,7 +48,7 @@ class MainBody extends Component {
               </p>
               <ul>
                 <li>
-                  <a href={"http://www.email-mentor.com"} target={"_blank"}>Latest work<span className={styles.linkarrow}>&nbsp;→</span></a>
+                  <a href={"http://www.isolate2donate.com"} target={"_blank"}>Latest work<span className={styles.linkarrow}>&nbsp;→</span></a>
                 </li>
                 {MainLinks.map((link, index) => (
                     <li key={'main-body-link' + index}>
