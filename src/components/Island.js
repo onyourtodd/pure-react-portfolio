@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import styles from "./island.module.scss"
+import React from 'react';
+import styles from "./island.module.scss";
 
-class Island extends Component {
-    render() {
-        return (
+const Island = () => {
+      return (
             <div className={styles.islandGrid}>
                 <div className={styles.islandsWrapper}>
                     <svg id={styles.Capa1} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="400">
@@ -24,8 +23,7 @@ class Island extends Component {
                     </svg>
                 </div>
             </div>
-        );
-    }
+      );
 }
 
 export default Island;
