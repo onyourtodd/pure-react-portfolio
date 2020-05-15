@@ -10,7 +10,7 @@ class App extends Component {
     render(props = {location: {key: 'en'}}) {
         return (
             <>
-                <Route render={({location}) => (
+                <Route render={({ location }) => (
                     <TransitionGroup>
                         <CSSTransition key={location.key} timeout={450} classNames="slide" >
                             <Switch location={location}>
